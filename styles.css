@@ -1,0 +1,349 @@
+@font-face {
+    font-family: JakartaFont;
+    src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+    
+  }
+@font-face {
+    font-family: JakartaFontBold;
+    src: url(assets/fonts/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: JakartaFontMid;
+    src: url(assets/fonts/static/PlusJakartaSans-Medium.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: JakartaFont;
+    background-color: hsl(210, 60%, 98%);
+}
+
+.notif-view{
+    /* border: 1px solid green; */
+    background-color: hsl(210, 60%, 98%);
+    width: 100%;
+    margin: auto;
+    
+}
+
+.box{
+    width: 70%;
+    margin: 70px auto;
+    background-color: hsl(210, 60%, 98%);
+    /* border: 1px solid black; */
+}
+
+.view{
+    margin: auto;
+    width: 70%;
+    color:rgb(92, 91, 91)
+    /* border: 1px solid yellow; */
+    
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title{
+    font-family: JakartaFontBold;
+    font-weight: 800;
+    margin: 20px 0px;
+    color: black;
+
+}
+
+.user{
+    font-family: JakartaFontBold;
+    color: black;
+}
+
+.greybold{
+    font-family: JakartaFontBold;
+
+}
+
+.bluebold{
+    font-family: JakartaFontBold;
+    color: hsl(219, 85%, 26%);
+
+}
+
+.title .number{
+    background-color: hsl(219, 85%, 26%);
+    font-family: JakartaFont;
+    color: white;
+    padding: 1.5px 7px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.mark a{
+    color: hsl(219, 85%, 26%);
+}
+
+.notif-markeditem{
+    background-color:hsl(211, 68%, 94%);
+    border-radius: 10px;
+    display: flex;
+    margin:10px;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+
+}
+
+.notif-item{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin:10px;
+}
+
+.timeandmsg{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+
+
+    /* background-color: blueviolet; */
+
+}
+
+.message .redy{
+    background-color:hsl(1, 90%, 64%);
+    border-radius: 100%;
+    font-size: 10px;
+    margin-left: 2px;
+    color: hsl(1, 90%, 64%);
+}
+
+.timrdmsg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 50%; */
+    margin-top: 10px;
+
+}
+
+.timrdmsg-rizky{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+
+}
+
+.pm{
+    background-color:hsl(211, 68%, 94%);
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    color: rgb(92, 91, 91);
+    border-radius: 10px;
+
+}
+
+.marked{
+    background-color:white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid rgb(92, 91, 91);
+    color: rgb(92, 91, 91);
+    border-radius: 10px;
+
+}
+
+.image{
+    /* width: 3.125rem; */
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-mark-webber.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin: 10px 10px 10px 20px; */
+
+}
+
+.image-1{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-angela-gray.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.image-2{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-jacob-thompson.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-3{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-rizky-hasanuddin.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-4{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-kimberly-smith.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-5{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-nathan-peterson.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-6{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/avatar-anna-kim.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic{
+    width: 3.75rem;
+    height: 60px;
+    margin: 20px;
+    /* background-color: red; */
+
+    background-image: url(./assets/images/image-chess.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.message{
+  font-size: 16px;
+  width: 90%;
+
+
+
+  /* margin: 10px; */
+
+  /* background-color: green; */
+}
+
+.red{
+    /* font-size: 10px; */
+    
+    background-color: hsl(211, 68%, 94%);
+    width: 10px;
+    height:10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    /* align-self: flex-start; */
+}
+
+.time{
+    color:darkgray;
+}
+/* .msg-1{
+    display: inline-block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+    .notif-view{
+        border: 1px solid green;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .box{
+        width: 100%;
+        margin: 0;
+        border: 1px solid black;
+    }
+
+    .view{
+        width: 100%;       
+        padding: 10px 10px;
+        /* border: 1px solid black; */
+    
+    }
+
+    .pm{
+        width: 90%;
+    
+    }
+
+
+    
+}
